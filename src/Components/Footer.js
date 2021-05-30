@@ -4,7 +4,7 @@ import styles from './Footer.module.css';
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <p>Alguns direitos reservados</p>
+      <p>Developed with love by Gabriel Pereira &#128156;</p>
     </footer>
   );
 };

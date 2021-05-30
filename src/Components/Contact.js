@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './Contact.module.css';
-import foto from '../img/contato.jpg';
+import photo from '../img/gabriel.jpg';
 import Head from './Head';
 
 const Contact = () => {
   return (
     <section className={styles.contact + ' animeLeft'}>
       <Head title="Marvel Heroes | Contact" description="Contact Me" />
-      <img src={foto} alt="Máquina de escrever" />
+      <img src={photo} alt="Novo Nicer" />
       <div>
         <h1>Contact Me</h1>
         <ul className={styles.data}>
