@@ -17,7 +17,7 @@ const Produtos = () => {
     axios.get(`http://gateway.marvel.com/v1/public/characters?ts=${timeStamp}&apikey=${pubKey}&hash=${hash}`)
     .then(response => {
       setProdutos(response.data.data.results);
-      console.log(produtos);
+      console.log(response.data.data.results);
     })
 }, []);
 
@@ -26,7 +26,7 @@ const Produtos = () => {
     <section>
       <Head title="Marvel Heroes" description="Descrição do site Marvel Heroes" />
       {produtos.map((produto) =>(
-        <Link to={`produto/${produto.name}`} key={produto.name}>
+        <Link to={`produto/${produto.id}`} key={produto.id}>
           <img src={`${produto.thumbnail.path}.${produto.thumbnail.extension}`} alt={`Marvel Heroe ${produto.name}`}/>
           <h1 className={styles.nome}>{produto.name}</h1>
         </Link>
