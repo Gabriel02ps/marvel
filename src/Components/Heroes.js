@@ -25,13 +25,15 @@ const Heroes = () => {
   return (
     <section>
       <Head title="Marvel Heroes | Home" description="Marvel Heroes Website" />
-      {heroes.map((hero) =>(
-        <Link to={`hero/${hero.id}`} key={hero.id}>
-          <img src={`${hero.thumbnail.path}.${hero.thumbnail.extension}`} alt={`Marvel Heroes ${hero.name}`}/>
-          <h1 className={styles.name}>{hero.name}</h1>
-        </Link>
-      
-      ))}
+      <div className={styles.grid}>
+        {heroes.map((hero) =>(
+          <Link to={`hero/${hero.id}`} key={hero.id}>
+            <img src={`${hero.thumbnail.path}.${hero.thumbnail.extension}`} alt={`Marvel Heroes ${hero.name}`}/>
+            <h1 className={styles.name}>{hero.name}</h1>
+          </Link>
+          ))}
+      </div>
+    
     </section>
   )
 };
