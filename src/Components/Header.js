@@ -13,16 +13,16 @@ const Header = () => {
             to="/"
             end
           >
-            Produtos
+            Heroes
           </NavLink>
         </li>
         <li>
           <NavLink
             activeClassName={styles.active}
             className={styles.link}
-            to="contato"
+            to="contact"
           >
-            Contato
+            Contact
           </NavLink>
         </li>
       </ul>

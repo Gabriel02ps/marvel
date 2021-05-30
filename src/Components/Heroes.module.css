@@ -1,9 +1,9 @@
-.produtos {
+.heroes {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
 
-.nome {
+.name {
   margin: 0.5rem 0;
 }

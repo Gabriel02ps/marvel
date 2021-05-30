@@ -1,21 +1,21 @@
-.contato {
+.contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
 
-.dados {
+.data {
   padding: 0;
   list-style: none;
 }
 
-.dados li {
+.data li {
   font-size: 1.2rem;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 0.8rem;
 }
 
-.dados li:before {
+.data li:before {
   content: '';
   display: inline-block;
   width: 20px;
