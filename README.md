@@ -20,9 +20,9 @@ Projeto SPA listando personagens da Marvel.
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [HTML5](https://nodejs.org/en/)
-- [CSS](https://reactjs.org/)
-- [Javascript](https://axios-http.com/)
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [React](https://reactjs.org/)
 - [Node.js](https://nodejs.org/en/)
 - [Axios](https://axios-http.com/)
