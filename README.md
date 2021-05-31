@@ -3,22 +3,22 @@
 </h1>
 
 <p align="center">
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-rodar-o-projeto">Como rodar o projeto</a>
+  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-rodar-o-projeto">How to run the project</a>
 </p>
 
 ![layout](https://user-images.githubusercontent.com/61991172/120137404-9ac2f080-c1aa-11eb-81fd-e4b6ae355882.png)
 
-## 💻 Projeto
+## 💻 Project
 
-Projeto SPA listando personagens da Marvel.
+SPA project listing Marvel characters.
 
-> Consumindo a API da [Marvel](https://developer.marvel.com/)
+> Consuming the API [Marvel](https://developer.marvel.com/)
 
-## 🔧 Tecnologias
+## 🔧 Tecnologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
@@ -27,9 +27,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Node.js](https://nodejs.org/en/)
 - [Axios](https://axios-http.com/)
 
-## 🤔 Como rodar o projeto
+## 🤔 How to run the project
 
-Após clonar, acesse ele via terminal e rode os comandos:
+After cloning, access it via terminal and run the commands:
 
 ```sh
 npm install
