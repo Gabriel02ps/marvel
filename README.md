@@ -8,9 +8,7 @@
   <a href="#-como-rodar-o-projeto">Como rodar o projeto</a>
 </p>
 
-<p align="center">
-  <img alt="Marvel Heroes" src=".github/layout.png" width="100%">
-</p>
+![layout](https://user-images.githubusercontent.com/61991172/120137404-9ac2f080-c1aa-11eb-81fd-e4b6ae355882.png)
 
 ## 💻 Projeto
 
@@ -22,8 +20,11 @@ Projeto SPA listando personagens da Marvel.
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Node.js](https://nodejs.org/en/)
+- [HTML5](https://nodejs.org/en/)
+- [CSS](https://reactjs.org/)
+- [Javascript](https://axios-http.com/)
 - [React](https://reactjs.org/)
+- [Node.js](https://nodejs.org/en/)
 - [Axios](https://axios-http.com/)
 
 ## 🤔 Como rodar o projeto
@@ -32,6 +33,6 @@ Após clonar, acesse ele via terminal e rode os comandos:
 
 ```sh
 npm install
-npm run dev
+npm start
 ```
 
