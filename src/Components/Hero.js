@@ -39,7 +39,7 @@ const Hero = () => {
       </div>
       <div>
         {hero.map((hero) => (
-          <div>
+          <div key={hero.name}>
             <h1>{hero.name}</h1>
             {hero.description ? <p className={styles.description}>{hero.description}</p>:<p className={styles.description}>Hero without description!</p>}
           </div>

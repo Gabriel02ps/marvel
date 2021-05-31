@@ -13,3 +13,10 @@
   height:150px;
   object-fit: cover;
 }
+
+@media (max-width:600px) {
+ .grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+ }
+}
