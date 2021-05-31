@@ -14,7 +14,7 @@ const Heroes = () => {
   const [heroes, setHeroes] = useState([]);
 
    useEffect(() => {
-    axios.get(`http://gateway.marvel.com/v1/public/characters?ts=${timeStamp}&apikey=${pubKey}&hash=${hash}`)
+    axios.get(`http://gateway.marvel.com/v1/public/characters?ts=${timeStamp}&apikey=${pubKey}&hash=${hash}&limit=48`)
     .then(response => {
       setHeroes(response.data.data.results);
       // console.log(response.data.data.results);
@@ -23,7 +23,7 @@ const Heroes = () => {
 
   if (heroes === null) return null;
   return (
-    <section>
+    <section className={styles.heroes + ' animeLeft'}>
       <Head title="Marvel Heroes | Home" description="Marvel Heroes Website" />
       <div className={styles.grid}>
         {heroes.map((hero) =>(

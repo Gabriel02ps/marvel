@@ -1,7 +1,12 @@
 .contact {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr ;
   gap: 2rem;
+}
+
+.contact img {
+  width: 300px;
+  height: 400px;
 }
 
 .data {
